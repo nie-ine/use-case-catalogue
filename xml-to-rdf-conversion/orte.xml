@@ -1,0 +1,3073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entity SYSTEM "cfm.ent">
+<?xml-model href="cfm-register.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="register_grossdruckausgabe.xsl" type="text/xsl"?>
+
+<register xmlns="http://www.cfmeyer.ch//schema"
+	xmlns:gnd="http://d-nb.info/standards/eleobmentset/gnd#"
+	xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cfmeyer.ch//schema cfm-register.xsd">
+
+	<head>
+		<h>Register der geografischen Namen</h>
+		<p>Das Register der geografischen Namen erfasst den Text der Briefe ohne deren Datumszeile
+			(sei diese am Anfang oder am Ende des Briefes) und ohne gedruckte Textteile (z.B.
+			Ortsnamen auf Visitenkarten). Aufgenommen sind auch die aus Ortsbezeichnungen
+			abgeleiteten Substantive und Adjektive (&#x00AB;Berner&#x00BB;, &#x00AB;böhmisch&#x00BB;). Letztere sind
+			unter der betreffenden Ortsbezeichnung aufgenommen (&#x00AB;Franzosen&#x00BB;,
+			&#x00AB;französisch&#x00BB; unter &#x00AB;Frankreich&#x00BB;), außer wenn sich das Adjektiv auf die
+			jeweilige Sprache bezieht (Bsp.: &#x00AB;Deutsch&#x00BB; unter &#x00AB;Deutschland&#x00BB; aufzunehmen,
+			wenn die deutsche Sprache gemeint ist, wäre irreleitend, da es deutschsprachige Menschen
+			nicht nur in Deutschland gibt.) Nicht berücksichtigt sind die Namen in Titeln von Werken
+			und Periodika (&#x00AB;Engelberg&#x00BB;, &#x00AB;Neue Zürcher Zeitung&#x00BB;) sowie nach geografischen
+			Namen benannte Plätze oder Stra&#223;en (&#x00AB;spanischer Platz&#x00BB;). Über die Lage der Örtlichkeiten in
+			Graubünden und im Veltlin orientiert die Karte in MBW&#160;4.1, S.&#160;382 (Abb. 61).</p>
+		<p>Die Briefnummern verteilen sich wie folgt auf die publizierten Druckbände:<br/>
+			MBW 4.1: Briefe 0a&#8209;181, 3001&#8209;3014.<br/>
+			MBW 4.2: Briefe 181a&#8209;382, 3015&#8209;3044; Dokumente 2501&#8209;2502.<br/>
+			MBW 4.3: Briefe 383&#8209;637, 3045&#8209;3050; Dokumente 2503&#8209;2506.<br/>
+			MBW 4.4: Briefe 637a&#8209;911a, 3051&#8209;3065; Dokumente 2507&#8209;2511.</p>
+	</head>
+
+	<body>
+		<div xsi:type="Geografika" h="A">
+			<entry id="Aarau">
+				<ed>Aarau (Hauptort des Kantons Aargau)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Aargau">
+				<ed>Aargau (Kanton im Norden der Schweiz)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Aeggischhorn">
+		    <ed>Aeggischhorn &#x2192; <siehe ref="Eggishorn">Eggishorn</siehe></ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Aegypten">
+				<ed>Ägypten</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Aetna">
+				<ed>Ätna (Vulkan auf Sizilien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Afrika">
+				<ed>Afrika</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Ajaccio">
+			  <ed>Ajaccio (Hauptstadt Korsikas; Reiseziel des Ehepaars Meyer bei seiner Hochzeitsreise im Winter 1875/76)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Albis">
+		    <ed>Albis (Bergkette im Kanton Zürich)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Albula">
+				<ed>Albula(pass) (Gebirgsübergang im Kanton Graubünden, verbindet das Albulatal mit dem Unterengadin; Durchreise des Ehepaars Meyer im Sommer 1878)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Alp_Gruem">
+				<ed>Alp Grüm (Siedlung auf der Südseite des <siehe ref="Berninapass">Berninapasses</siehe>; Ausflugsziel des Ehepaars Meyer im Sommer 1878)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Alpen">
+				<ed>Alpen</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Alsbach">
+		  	<ed>Alsbach (Ort in Südhessen, seit 1978 Alsbach-Hähnlein)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Altona">
+		    <ed>Altona (bis 1938 eigenständige Stadt, seither Bezirk der Stadt Hamburg)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Regensberg_Ruine">
+		    <ed>Alt-Regensberg (ehemals Burg, heute Ruine in Regensdorf, Kanton Zürich)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Amerika">
+				<ed>Amerika (Vereinigte Staaten von Amerika) </ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Ampezzotal">
+				<ed>Ampezzotal (Tal in den Dolomiten; Ausflugsziel Haessels im Sommer 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Amstetten"><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <ed>Amstetten (Stadt in Niederösterreich)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Andeer">
+		    <ed>Andeer (Ort im Kanton Graubünden)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Appenzell">
+			  <ed>Appenzell (Kanton Appenzell Ausserrhoden und Kanton Appenzell Innerrhoden mit Hauptort Appenzell)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Athen">
+				<ed>Athen</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Atlantik">
+		    <ed>Atlantik</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Au">
+			  <ed>Au (Halbinsel im Zürichsee; zeitweiliger Wohnort von General Johann Rudolf Werdmüller; Verlobung Meyers mit Louise Ziegler am 13.&#160;Juni 1875 auf der Halbinsel Au)</ed><!--  Verweise ins @@@Personenregister: Louise und Werdmüller -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Augsburg">
+				<ed>Augsburg (Ausflugsziel Haessels im Sommer 1872)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Avignon">
+			  <ed>Avignon (Stadt in der Provence; Durchgangsort des Ehepaars Meyer auf seiner Hochzeitsreise im Winter 1875/76)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="B">
+		  <entry id="Baden">
+				<ed>Baden (bis 1918 bestehendes Gro&#223;herzogtum)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Baden_Aargau">
+				<ed>Baden (Kurort im Kanton Aargau; Aufenthaltsort von Louise und Camilla Meyer im November 1882)</ed><!-- Verweise ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Baden-Baden">
+			  <ed>Baden (Stadt in Baden-Württemberg, seit 1931 Baden-Baden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Bamberg">
+		    <ed>Bamberg (Stadt in Bayern)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Barmen"><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <ed>Barmen (seit 1929 Teil von Wuppertal)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Basel">
+			  <ed>Basel</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bastia">
+			  <ed>Bastia (Hafenstadt auf Korsika; Durchgangsort des Ehepaars Meyer auf seiner Hochzeitsreise im Winter 1875/76)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bayern">
+				<ed>Bayern</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Bayreuth">
+		    <ed>Bayreuth (Stadt in Bayern)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Beatenberg">
+		    <ed>Beatenberg (Ort im Berner Oberland; Aufenthaltsort der Familie Meyer im Sommer 1887)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Beckenried">
+				<ed>Beckenried (Ort im Kanton Nidwalden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Belgien">
+				<ed>Belgien</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bellagio">
+			  <ed>Bellagio (Ort am Comersee; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bellinzona">
+				<ed>Bellinzona (Hauptort des Kantons Tessin, <!--s. Karte in MBW 4.1, S.&#160;382; -->zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bendlikon">
+				<ed>Bendlikon (Ortsteil von Kilchberg)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Bensheim">
+		    <ed>Bensheim (Ort in Südhessen)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Bergell">
+				<ed>Bergell (Tal im Kanton Graubünden, südliche Verlängerung des Engadins, s. Karte in MBW&#160;4.1, S.&#160;382)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Berlin">
+				<ed>Berlin<!-- (langjähriger Wohnort von Julius von Rodenberg)--></ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bern">
+				<ed>Bern</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Bernardin">
+		    <ed>Bernardin &#x2192; <siehe ref="San_Bernardino">San Bernardino</siehe></ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Oberland">
+		    <ed>Berner Oberland (Region des Kantons Bern<!-- ER: auskommentiert: umfassend den bernischen Voralpen- und Alpenraum mit dem oberen Aaretal, den Seitentälern Hasli-, Lütschinen-, Kander-, Saane- und Simmental sowie den Brienzer- und Thunersee-->)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		<entry id="Berninapass">
+			<ed>Bernina(pass) (Alpenpass im Kanton Graubünden, verbindet das Engadin mit dem Puschlav, s. Karte in MBW&#160;4.1, S.&#160;382; Durchgangsort der Geschwister Meyer im Sommer 1866 und Ausflugsziel des Ehepaars Meyer im Sommer 1878)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bex">
+				<ed>Bex (Ort im Kanton Waadt)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bielersee">
+				<ed>Bielersee (See in den Kantonen Bern und Neuenburg)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Schinznach">
+				<ed>Birrenlauf (Badeort bei Brugg, Kanton Aargau; seit 1938 Schinznach-Bad)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Blasewitz">
+		    <ed>Blasewitz (bis zur Eingemeindung 1921 Vorort von Dresden; im Herbst 1884 temporärer Aufenthaltsort Haessels)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Bodensee">
+				<ed>Bodensee</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Boehmen">
+				<ed>Böhmen (Reiseziel Haessels im Frühling 1880 und 1882)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Boehmerwald">
+			  <ed>Böhmerwald (Gebirgskette entlang der tschechisch-deutsch-österreichischen Grenze)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Boehmische_Schweiz">
+				<ed>Böhmische Schweiz (tschechischer Teil des Elbsandsteingebirges)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bologna">
+			  <ed>Bologna (Reiseziel der Geschwister Meyer im März 1872)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bonn">
+			  <ed>Bonn <!--(Durchgangsort Haessels im Sommer 1882)--></ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bormio">
+				<ed>Bormio (Ort im oberen <siehe ref="Veltlin">Veltlin</siehe>, s. Karte in MBW&#160;4.1, S.&#160;382; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Boston">
+		    <ed>Boston</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Bozen">
+				<ed>Bozen (Stadt in Südtirol)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bregenz">
+				<ed>Bregenz (langjähriger Wohnort von Alfred Mei&#223;ner; Ausflugsziel Meyers im Winter 1874)<!-- Verweis ins @@@Personenregister --></ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bremen">
+				<ed>Bremen</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Brenner">
+				<ed>Brenner(pass) (Gebirgsübergang zwischen Tirol und Südtirol)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Brescia">
+				<ed>Brescia (Stadt in der Lombardei)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Breslau">
+		  	<ed>Breslau (poln. Wrocław; Stadt in Niederschlesien; langjähriger Wohnort von Felix Dahn)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Brienzersee">
+				<ed>Brienzersee (See im Kanton Bern)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Brig">
+			  <ed>Brig (Ort im Kanton Wallis<!--; Durchgangsort Haessels im Sommer 1877-->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Brissago">
+				<ed>Brissago (Ort am Langensee im Kanton Tessin)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+
+			<entry id="Bristol">
+				<ed>Bristol (Stadt im Südwesten Englands)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Brixen">
+				<ed>Brixen (Ort in Südtirol; Aufenthaltsort Haessels im Sommer 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Brugg">
+				<ed>Brugg (Ort im Kanton Aargau)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Bundt">
+		    <ed>Bundt (Ortsteil der Gemeinde Wattwil im Toggenburg im Kanton St. Gallen)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Bunzlau">
+				<ed>Bunzlau (heute Bolesławiec in Polen)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="C">
+			<entry id="Canstatt">
+				<ed>Cannstatt (Ort bei Stuttgart, seit 1933 Bad Cannstatt)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Canterbury">
+				<ed>Canterbury (Stadt im Südosten Englands)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Catania">
+				<ed>Catania (Stadt auf Sizilien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Tschamutt">
+		    <ed>Chiamut (auch Tschamut, Tschamutt, Chiamutt; Ort am Oberalppass im Kanton Graubünden; Aufenthaltsort der Geschwister Meyer im Sommer 1873 und 1874)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="China">
+		    <ed>China</ed><!-- ER: Eintrag nach Kontrolle gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Chur">
+				<ed>Chur (Hauptort des Kantons Graubünden, s. Karte in MBW&#160;4.1, S.&#160;382; Ort der Ermordung Georg Jenatschs<!--; wiederholter Durchgangsort auf Meyers Reisen-->)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Churwalden">
+				<ed>Churwalden (Ort im Kanton Graubünden; Ausflugsziel des Ehepaars Meyer im Sommer 1878)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Cilli">
+		    <ed>Cilli (heute Celje in Slowenien)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Coburg">
+				<ed>Coburg (Stadt in Nordbayern)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry> 
+		  <entry id="Codogno">
+		    <ed>Codogno (Ort in der Lombardei; Wohnort von Angiolina Signorelli<!--, Übersetzerin von &#x00AB;Gustav Adolf&apos;s Page&#x00BB; ins Italienische  -->)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Colico">
+				<ed>Colico (Ort am nordöstlichen Ufer des Comersees, s. Karte in MBW&#160;4.1, S.&#160;382; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Comersee">
+				<ed>Comersee (See in Oberitalien<!--, s. Karte in MBW&#160;4.1, S.&#160;382-->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="D">
+			<entry id="Daenemark">
+				<ed>Dänemark</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Darmstadt">
+		    <ed>Darmstadt (Stadt in Südhessen)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Davos">
+				<ed>Davos (Ort im Kanton Graubünden,  s. Karte in MBW&#160;4.1, S.&#160;382; Aufenthaltsort der Geschwister Meyer im Sommer 1871)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Den_Haag">
+				<ed>Den Haag</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Desenzano">
+				<ed>Desenzano (Ort am Gardasee)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Dessau">
+		    <ed>Dessau (Stadt im heutigen Sachsen-Anhalt<!--, seit 2007 Dessau-Ro&#223;lau-->)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Deutschland">
+				<ed>Deutschland</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Disentis">
+				<ed>Disentis (rätorom. Mustér; Ort im Kanton Graubünden, seit 1963 Disentis/Mustér; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1873)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Dittersbach">
+		    <ed>Dittersbach (Ort in der böhmischen Schweiz, heute Jetřichovice in Tschechien; Aufenthaltsort Haessels im Sommer 1877)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+<entry id="Dole">
+		    <ed>(La) Dôle (Berggipfel im Waadtländer Jura)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Dornach">
+				<ed>Dornach (Ort im Elsass)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Dresden">
+			  <ed>Dresden (Reiseziel des Ehepaars Meyer im Herbst 1880; krankheitsbedingter Aufenthaltsort Haessels im Sommer und Herbst 1884)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Duesseldorf">
+		    <ed>Düsseldorf</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		</div>
+
+		<div xsi:type="Geografika" h="E">
+			<entry id="Edolo">
+				<ed>Edolo (Ort in der Lombardei)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Eggishorn">
+			  <ed>Eggishorn (Berg im Kanton Wallis; mundartl. Lautung Aeggischhorn; Ausflugsziel Haessels im Sommer 1877)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Eichicht">
+				<ed>Eichicht (Ort in Thüringen; Ausflugsziel Haessels im Sommer 1876)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Einsiedeln">
+				<ed>Einsiedeln (Wallfahrtsort im Kanton Schwyz)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+  <entry id="Eisenach">
+		    <ed>Eisenach</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Elbe">
+				<ed>Elbe</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Elberfeld">
+			  <ed>Elberfeld (seit 1929 Teil von Wuppertal)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Engadin">
+				<ed>Engadin (Hochtal und Region im Kanton Graubünden, bestehend aus dem Ober- und Unterengadin)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Engelberg">
+			  <ed>Engelberg (Ort mit Benediktinerkloster im Engelbergertal, Kanton Obwalden; titelgebender Schauplatz von Meyers Verserzählung; Ferienort der Geschwister Meyer 1857 sowie 1859/1860; Reiseziel Meyers im September 1858)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="England">
+				<ed>England</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Engstlenalp">
+				<ed>Engstlenalp (Alpwirtschaft und Hotel am Übergang vom Engelbergertal ins Haslital, Kanton Bern; Aufenthaltsort der Geschwister Meyer im Sommer 1857)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Erlenbach">
+				<ed>Erlenbach (Ort am rechten Ufer des Zürichsees)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Etsch">
+				<ed>Etsch(tal) (Fluss(tal) in Südtirol; Durchfahrt der Geschwister Meyer im Winter 1871)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Europa">
+				<ed>Europa</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="F">
+			<entry id="Faulhorn">
+			  <ed>Faulhorn (Berg im Berner Oberland; Ausflugsziel Haessels im Sommer 1877)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Feldmeilen">
+			  <ed>Feldmeilen (Ortsteil von Meilen am rechten Ufer des Zürichsees; langjähriger Wohnort des Ehepaars Wille &#x2192; <siehe ref="Mariafeld">Feldmeilen (Mariafeld)</siehe>)
+			  </ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Mariafeld">
+		    <ed>Feldmeilen (Mariafeld) (seit 1851 Gutsbesitz und Wohnsitz der Familie Wille in Feldmeilen, Kanton Zürich)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Felsenhof">
+		    <ed>&#x00AB;Felsenhof&#x00BB; &#x2192; <siehe ref="Maennedorf_Felsenhof">Männedorf (Felsenhof)</siehe></ed>
+		    <refs xsi:nil="true"/></entry>
+		  <entry id="Fetan">
+		    <ed>Fetan (ab 1943 Ftan, seit 2014 Teil der Gemeinde Schuls im Kanton Graubünden)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Flims">
+				<ed>Flims (Ort im Kanton Graubünden; Aufenthaltsort der Geschwister Meyer im Sommer 1873)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Florenz">
+				<ed>Florenz (Reiseziel der Geschwister Meyer im Frühling 1858 sowie Aufenthaltsort von Betsy Meyer im Winter 1875/1876 und von Dezember 1876 bis Juni 1877)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Fluela">
+				<ed>Flüela(pass) (Alpenpass im Kanton Graubünden, verbindet das Landwassertal mit dem Unterengadin)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Fluntern">
+		    <ed>Fluntern (bis zur Eingemeindung 1893 Vorort von Zürich; krankheitsbedingter Aufenthaltsort Haessels im Sommer 1884)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Fraenkische_Schweiz">
+		    <ed>Fränkische Schweiz (Landschaft in Oberfranken nordöstlich von Nürnberg in Bayern; Ausflugsziel Haessels im Frühling 1883)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Frankenwald">
+				<ed>Frankenwald (Mittelgebirge zwischen Thüringen und Bayern)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Frankfurt">
+				<ed>Frankfurt am Main</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Frankfurt_an_der_Oder">
+		    <ed>Frankfurt an der Oder</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Frankreich">
+				<ed>Frankreich</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Franzensbad">
+			  <ed>Franzensbad (heute Františkovy Lázně in Tschechien; beliebter Kurort von Iduna Laube; Aufenthaltsort Haessels im Sommer 1878)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Freiburg">
+		    <ed>Freiburg im Breisgau</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Frontenex">
+			  <ed>Frontenex (Vorort von Genf<?bem ER: heute Teil der Gemeinde Cologny im Kanton Genf oder handelt es sich um ein Quartier in Genf: Anfrage nach Genf am 19.9.2016?>; Sommersitz der Familie Naville; Aufenthaltsort Betsy Meyers im Herbst 1864)</ed><!-- Verweis ins @@@Personenregister: Betsy Meyer-->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Fuenfkirchen">
+		    <ed>Fünfkirchen (heute Pécs in Ungarn)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Muskau">
+		    <ed>Fürst-Pückler-Park (Landschaftspark in Bad Muskau in der Oberlausitz in Sachsen; langjähriges Wirkungsfeld von Eduard Petzold)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Fuessen">
+		    <ed>Füssen (Ort in Bayern)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Fulda">
+		    <ed>Fulda (Stadt in Hessen)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		</div>
+
+		<div xsi:type="Geografika" h="G">
+			<entry id="Gais">
+				<ed>Gais (Ort im Kanton Appenzell)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Gardasee">
+			  <ed>Gardasee (See in Oberitalien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Genf">
+			  <ed>Genf (langjähriger Wohnort von Ernest Naville; mehrmaliger Aufenthaltsort der Geschwister Meyer, Reiseziel Haessels im Sommer 1865)</ed><!-- Verweis ins @@@
+			    Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Genfersee">
+			  <ed>Genfersee (französisch-schweizerischer See)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Girgenti">
+				<ed>Girgenti (Ort auf Sizilien, seit 1927 Agrigent)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Giudecca">
+				<ed>(La) Giudecca (Inselgruppe bei Venedig)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Glarus">
+			  <ed>Glarus (Hauptort des gleichnamigen Kantons)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Gnadenberg">
+			  <ed>Gnadenberg (heute Godnów in Polen; Wohnort von Freifrau Marie von Richthofen)</ed><!-- Verweise ins @@@Personenregister: Louise und Freifrau -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		<entry id="Gnadenfrei">
+		  <ed>Gnadenfrei (heue Piława Górna in Polen; Wohnort von Freifrau Louise von Richthofen)</ed><!-- Verwei ins @@@Personenregister: Louise und Freifrau -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Goettingen">
+		    <ed>Göttingen (zeitweiliger Wohnort von Gustav Haessel)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Golf">
+			  <ed>Golf von Neapel (Meeresbucht an der Westküste Süditaliens)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Gotha">
+			  <ed>Gotha (Ort in Thüringen; Wohnort von Friedrich Scherling)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Gotthard">
+				<ed>Gotthard(pass) (Gebirgsmassiv bzw. Pass, verbindet das Urserental im Kanton Uri mit der Leventina im Kanton Tessin)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Grange_Gaby">
+			  <ed>Grange-Gaby (Weiler auf dem <siehe ref="Mont_Saleve">Mont Salève</siehe>; Sommersitz der Familie Naville)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Graubuenden">
+		    <ed>Graubünden (auch Bünden; Kanton im Südosten der Schweiz)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Greifensee">
+				<ed>Greifensee (Ort und gleichnamiger See im Kanton Zürich)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Graz">
+				<ed>Graz (Landeshauptstadt der Steiermark)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Griechenland">
+				<ed>Griechenland</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Grimma">
+				<ed>Grimma (Stadt östlich von Leipzig)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Gronau">
+			  <ed>Gronau (bis zur Eingemeindung 1971 Vorort von Bensheim in Hessen)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Gruesch">
+		    <ed>Grüsch (Ort im Prättigau, Kanton Graubünden)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		</div>
+
+		<div xsi:type="Geografika" h="H">
+<entry id="Halle">
+  <ed>Halle (Stadt in Sachsen-Anhalt, bis 1995 Halle/Saale)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Hannover">
+				<ed>Hannover</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Harz">
+				<ed>Harz (Mittelgebirge in Norddeutschland)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Hausen">
+				<ed>Hausen (Gemeinde im Kanton Zürich, seit 1911 Hausen am Albis)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Heidelberg">
+			  <ed>Heidelberg (langjähriger Wirkungsort des Arztes Wilhelm Erb, den Haessel im Frühling 1884 konsultierte)</ed><!--  Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Heilbronn">
+		    <ed>Heilbronn (Stadt in Baden-Württemberg; Aufenthaltsort Haessels im Frühling 1884)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Heinzenberg">
+			  <ed>Heinzenberg (Bergkette westlich von Thusis, Kanton Graubünden; Ausflugsziel der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Helsingoer">
+				<ed>Helsingör (Stadt in Dänemark; Ferienort Haessels im Sommer 1881)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Herisau">
+				<ed>Herisau (Hauptort des <!--ER: Die Bezeichnung Halbkanton ist nicht mehr gebräuchlich -->Kanton Appenzell Ausserrhoden; Aufenthaltsort von Betsy Meyer im Herbst 1878 und von Louise Meyer im Sommer 1880)</ed><!-- Verweise ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Holstein">
+			  <ed>Holstein (bis zur Annexion durch Preu&#223;en 1866 Herzogtum, 1867 Vereinigung mit Schleswig zur preu&#223;ischen Provinz Schleswig-Holstein)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Homburg">
+				<ed>Homburg (Stadt im Saarland)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Schloss_Horben">
+		    <ed>Horben (Schloss bei Muri, Kanton Aargau; Aufenthaltsort der Familie Meyer im Sommer 1883)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Horgen">
+				<ed>Horgen (Ort am linken Ufer des Zürichsees)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Hottingen">
+			  <ed>Hottingen (bis zur Eingemeindung 1893 Vorort von Zürich; zeitweiliger Wohnort von Fritz Meyer)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="I">
+			<entry id="Ilanz">
+				<ed>Ilanz (Ort im Kanton Graubünden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Ilmenau">
+				<ed>Ilmenau (Ort in Thüringen; Ausflugsziel Haessels im Sommer 1883)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Indien">
+				<ed>Indien</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Inn">
+				<ed>Inn (Nebenfluss der Donau)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Innsbruck">
+			  <ed>Innsbruck<!-- (Durchgangsort Betsy Meyers im Frühling 1876)--></ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Interlaken">
+				<ed>Interlaken (Ort im Berner Oberland)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Ionische_Inseln">
+				<ed>Ionische Inseln (griechische Inselgruppe im Ionischen Meer)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Iseosee">
+				<ed>Iseosee (See in Oberitalien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Iserlohn">
+			  <ed>Iserlohn (Ort in Nordrhein-Westfalen)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Italien">
+				<ed>Italien</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="J">
+		  <entry id="Japan">
+		    <ed>Japan</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Jena">
+		    <ed>Jena</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Jersey">
+		    <ed>Jersey (Kanalinsel vor Gro&#223;britannien)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Julier">
+		  	<ed>Julier(pass) (Gebirgsübergang im Kanton Graubünden, verbindet das Oberhalbstein mit dem Oberengadin, s. Karte in MBW&#160;4.1, S.&#160;382)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Juetland">
+			  <ed>Jütland (dänisches Festland bzw. jütische Halbinsel)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+	  <div xsi:type="Geografika" h="K">
+			<entry id="Kairo">
+				<ed>Kairo</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Karlsbad">
+			  <ed>Karlsbad (heute Karlovy Vary in Tschechien; mehrmaliger Sommerkurort Heinrich Laubes; Aufenthaltsort Haessels im Sommer 1878 und 1883)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Karlsruhe">
+			  <ed>Karlsruhe (langjähriger Wirkungsort von Felix Mottl)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Katzensee">
+		    <ed>Katzensee (See im Kanton Zürich)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+	    <entry id="Kellinghusen"><!-- ER: Eintrag nach Korrektur gemacht -->
+	      <ed>Kellinghusen (Stadt in Schleswig-Holstein)</ed>
+	      <refs>
+	        <blck>■?■</blck>
+	      </refs>
+	    </entry>
+			<entry id="Kempten">
+				<ed>Kempten (Ort im bayerischen Allgäu)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Kickelhahn">
+				<ed>Kickelhahn (Berg im Thüringer Wald; Ausflugsziel Haessels im Sommer 1883)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Kiel">
+		    <ed>Kiel (langjähriger Wohnort von Albert Hänel)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Kilchberg">
+			  <ed>Kilchberg (Ort am linken Ufer des Zürichsees; langjähriger Wohnort des Ehepaars Meyer &#x2192; <siehe ref="Kilchberg_Meyerhaus">Kilchberg (Meyerhaus)</siehe>)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Kilchberg_Meyerhaus">
+			  <ed>Kilchberg (Meyerhaus); Meyer kaufte 1877 das &#x00AB;Ottsche Gut auf Brunnen&#x00BB; in Kilchberg und bewohnte das Haus mit seiner Familie bis zu seinem Tod 1898; danach wohnten Witwe und Tochter im Haus, 1915&#x2011;1936 Tochter Camilla alleine<!-- Verweise ins @@@Personenregister: Louise und Camilla --></ed><refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Kilchberg_Tuebingen">
+		    <ed>Kilchberg (Stadtteil von Tübingen, bis 1971 selbständige Gemeinde)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Kirnitzschtal">
+			  <ed>Kirnitzschtal (Gemeinde und Tal in der Sächsischen Schweiz; seit 2012 ist die Gemeinde Teil der Stadt Sebnitz; Aufenthaltsort Haessels im Sommer 1877)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Kloental">
+		  	<ed>Klöntal (Tal im Kanton Glarus,  s. Karte in MBW&#160;4.1, S.&#160;382)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Klosters">
+				<ed>Klosters (Ort im Prättigau, Kanton Graubünden, seit 1973 Klosters-Serneus; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1872)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Koeln">
+			  <ed>Köln</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Koenigsberg">
+			  <ed>Königsberg (heute Kaliningrad in Russland; zeitweiliger Wohnort von Felix Dahn)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Kopenhagen">
+			  <ed>Kopenhagen</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Konstantinopel">
+		    <ed>Konstantinopel (heute Istanbul)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Korfu">
+			  <ed>Korfu (<siehe ref="Ionische_Inseln">Ionische Inseln</siehe>)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Korsika">
+				<ed>Korsika (zu Frankreich gehörige Insel im Mittelmeer)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Kuesnacht">
+			  <ed>Küsnacht (Ort am rechten Ufer des Zürichsees; zeitweiliger Wohnort der Geschwister Meyer &#x2192; <siehe ref="Kuesnacht_Seehof">Küsnacht (Seehof)</siehe> und des Ehepaars Meyer &#x2192; <siehe ref="Kuesnacht_Wangensbach">Küsnacht (Wangensbach)</siehe>)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Kuesnacht_Seehof">
+			  <ed>Küsnacht (Seehof); die Geschwister Meyer bewohnten den &#x00AB;Seehof&#x00BB; 1868&#8209;1872</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Kuesnacht_Wangensbach">
+			  <ed>Küsnacht (Wangensbach); Wohnsitz des Ehepaars Meyer von Februar 1876 bis zum Umzug nach <siehe ref="Kilchberg_Meyerhaus">Kilchberg (Meyerhaus)</siehe> im April 1877; 1883 wurde der &#x00AB;Wangensbach&#x00BB; durch Paul Burkhard (1830&#x2011;1890) erworben<!-- ER: auskommentiert: der ihn bis 1890 bewohnte, seine Gattin Henriette bis zu ihrem Tod 1930 --></ed><!-- Verweis ins @@@Personenregister: Burkhard -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+	  
+		<div xsi:type="Geografika" h="L">
+			<entry id="Landeck">
+				<ed>Landeck (Ort in Tirol)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>	  
+		  <entry id="Langenberg">
+		    <ed>Langenberg (Hügelrücken bei <siehe ref="Langnau">Langnau am Albis</siehe>; 1869 gründete Carl von Orelli hier den &#x00AB;Tierpark Langenberg&#x00BB;)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Langnau">
+		    <ed>Langnau am Albis (Ort im Kanton Zürich; Wohnort von Nanny von Escher)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Lausanne">
+		    <ed>Lausanne (Hauptort des Kanton Waadt; Wohnort von Louis Vulliemin; viele Male Aufenthaltsort Meyers, Durchgangsort des Ehepaars Meyer auf seiner Hochzeitsreise im Herbst 1875)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Leipzig">
+				<ed>Leipzig (Wohnort von Hermann Haessel)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Leipzig_Haesselhaus">
+				<ed>Leipzig (Haesselhaus), Wohn- und Geschäftshaus von Hermann Haessel</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Le_Prese">
+		    <ed>Le Prese (Ortsteil der Gemeinde Puschlav im Kanton Graubünden; Ausflugsziel der Geschwister Meyer im Sommer 1866)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Lichtensteig">
+		    <ed>Lichtensteig (Gemeinde im Toggenburg im Kanton St. Gallen)</ed><!-- ER: Eintrag nach Korrektur gemacht --><refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Lichtenthal">
+		    <ed>Lichtental (bis 1863 Lichtenthal, seit 1909 Stadtteil von Baden-Baden; Aufenthaltsort Haessels im Frühling 1884)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Lindau">
+		    <ed>Lindau (Stadt am Bodensee in Bayern)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Linth">
+		    <ed>Linth (im Kanton Glarus entspringender Fluss)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Livland">
+				<ed>Livland (historische Landschaft im Baltikum)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Livorno">
+			  <ed>Livorno (Hafenstadt in der Toskana; Durchgangsort der Geschwister Meyer im Frühling 1858 und Betsy Meyers im Winter 1875)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Lobenstein">
+			  <ed>Lobenstein (Kurort in Thüringen; Aufenthaltsort Haessels im Sommer 1874)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Lombardei">
+				<ed>Lombardei (norditalienische Region)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="London">
+				<ed>London</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Luebeck">
+			  <ed>Lübeck (Wohnort von Mathilde Scherling)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Luganersee">
+				<ed>Luganersee (See in Oberitalien und im Kanton Tessin)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Lugano">
+				<ed>Lugano (Ort im Kanton Tessin; Aufenthaltsort der Geschwister Meyer im Sommer 1866 und der Familie Meyer im Sommer 1885)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Lukmanierstrasse">
+				<ed>Lukmanier(straße) (Alpenpass(straße), Verbindung zwischen dem Bleniotal im Kanton Tessin und dem Medelsertal im Kanton Graubünden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Luzern">
+				<ed>Luzern (Hauptort des gleichnamigen Kantons; zeitweiliger Aufenthaltsort der Geschwister Meyer im Frühling 1858 und Haessels im Sommer 1877)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="M">
+			<entry id="Madrid">
+				<ed>Madrid</ed>
+				<refs><blck>■?■</blck></refs>
+			</entry>
+			<entry id="Maennedorf">
+			  <ed>Männedorf (Ort am rechten Ufer des Zürichsees; zeitweiliger Wohnort von Betsy Meyer &#x2192; <siehe ref="Maennedorf_Felsenhof">Männedorf (Felsenhof)</siehe>)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+
+			<entry id="Maennedorf_Felsenhof">
+			  <ed>Männedorf (Felsenhof); Betsy Meyer bewohnte den an die &#x00AB;Zellersche Gebetsheilanstalt&#x00BB; in Männedorf angegliederten &#x00AB;Felsenhof&#x00BB; von November 1880 bis Oktober 1894</ed><!-- Verweis ins @@@Personenregister: Samuel Zeller  -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Mailand">
+				<ed>Mailand (zeitweiliger Aufenthaltsort Betsy Meyers im Frühling 1876)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Mammern">
+				<ed>Mammern (Ort am Bodensee, Kanton Thurgau)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Mannheim">
+		    <ed>Mannheim</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Mantua">
+				<ed>Mantua (it. Mantova; Ort in der Lombardei; Ausflugsziel der Geschwister Meyer im Winter 1871)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Mariafeld_Feldmeilen">
+		   <ed>&#x00AB;Mariafeld&#x00BB; &#x2192; <siehe ref="Mariafeld">Feldmeilen (Mariafeld)</siehe></ed>
+		      <refs xsi:nil="true"/>
+		  </entry>
+			<entry id="Marienbad">
+			  <ed>Marienbad (Kurort in Böhmen, heute Mariánské Lázně in Tschechien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Eisenstein">
+		    <ed>Markt Eisenstein (heute Železná Ruda in Tschechien)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Marseille">
+				<ed>Marseille (zeitweiliger Aufenthaltsort der Geschwister Meyer im Frühling 1858 und des Ehepaars Meyer auf seiner Hochzeitsreise im Winter 1875/76)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Massachusetts">
+		    <ed>Massachusetts</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Masslau">
+		    <ed>Ma&#223;lau (Ort im Umland von Merseburg, seit 2009 Teil der Stadt Leuna in Sachsen-Anhalt; Ausflugsziel Haessels im Frühling 1886)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Meilen">
+			  <ed>Meilen (Ort am rechten Ufer des Zürichsees; zeitweiliger Wohnort der Geschwister Meyer bzw. von Betsy Meyer &#x2192; <siehe ref="Meilen_Seehof">Meilen (Seehof)</siehe>)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Meilen_Seehof">
+				<ed>Meilen (Seehof); die Geschwister Meyer bewohnten im &#x00AB;Seehof&#x00BB; in Meilen von März 1872 bis zur Heirat Meyers im Herbst 1875 eine Mietwohnung; Betsy Meyer verblieb dort bis November 1880</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Meiringen">
+				<ed>Meiringen (Ort im Berner Oberland)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Meissen">
+		    <ed>Mei&#223;en</ed><!-- ER: Eintrag nach Kontrolle gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Melchsee">
+				<ed>Melchsee (kleiner Bergsee im Gemeindegebiet von Kerns, Kanton Obwalden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Melchtal">
+				<ed>Melchtal (Tal und gleichnamige Ortschaft in Kerns, Kanton Obwalden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Menzberg">
+		    <ed>Menzberg (Ortsteil der Gemeinde Menznau im Kanton Luzern; Urlaubsort von Adolf Frey im Sommer 1884)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Menzingen">
+				<ed>Menzingen (Ort im Kanton Zug)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Meran">
+			  <ed>Meran (Ort in Südtirol<!--; Durchgangsort Haessels im Sommer 1870-->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Merseburg">
+		    <ed>Messina (Stadt in Sachsen-Anhalt)</ed><!-- Eintrag nach Kontrolle gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Messina">
+				<ed>Messina (Stadt auf Sizilien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Metz">
+		    <ed>Metz (Stadt im Nordosten Frankreichs, von 1871 bis 1918 zum Deutschen Reich zugehörig)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Misox">
+				<ed>Misocco (dt. Misox; italienischsprachiges Tal im Kanton Graubünden; Durchfahrt der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Molins">
+		    <ed>Molins &#x2192; <siehe ref="Mulegns">Mühlen</siehe></ed><!-- interner Kommentar: Bezeichnung im Briefwechsel: Molins -->
+		    <refs xsi:nil="true"/>
+		  </entry>
+		  <entry id="Montana">
+		    <ed>Montana</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Monte_Baldo">
+				<ed>Monte Baldo (Bergrücken am östlichen Ufer des Gardasees)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Monte_Cristallino">
+				<ed>Monte Cristallino (Berg in Oberitalien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Monte_San_Salvatore">
+				<ed>Monte San Salvatore (Berg bei Lugano; Ausflugsziel der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Montreux">
+				<ed>Montreux (Ort im Kanton Waadt)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Mont_Saleve">
+			  <ed>Mont Salève (Bergrücken in der Nähe von Genf in der Haute-Savoie; &#x00AB;Hausberg&#x00BB; von Genf)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Morbegno">
+				<ed>Morbegno (dt. Morbend; Ort im unteren <siehe ref="Veltlin">Veltlin</siehe>; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Moskau">
+		    <ed>Moskau</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Sebes">
+		    <ed>Mühlbach (heute Sebeș in Rumänien)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Mulegns">
+				<ed>Mühlen (ab 1943 Mulegns, seit 2016 Teil der Gemeinde Surses, Kanton Graubünden; zeitweiliger Aufenthaltsort des Ehepaars Meyer und von Betsy Meyer im Herbst 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Muenchen">
+			  <ed>München (Wohnort von Paul Heyse, Hermann Lingg und Anna von Do&#223;; Aufenthaltsort der Geschwister Meyer im Winter 1871 und Meyers im Winter 1874; Durchgangsort Betsy Meyers im Frühling 1876)</ed><!-- Verweise ins Personenregister: von Doss, Lingg und Betsy --><refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>	  
+		  <entry id="Muerren">
+		    <ed>Mürren (Ortsteil der Gemeinde Lauterbrunnen im Berner Oberland; Aufenthaltsort der Familie Meyer im Sommer 1886)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Murano">
+				<ed>Murano (zu Venedig gehörende Insel)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="N">
+			<entry id="Nakkehoved">
+				<ed>Nakkehoved (Ort auf der Insel Seeland in Dänemark; Ausflugsziel Haessels im Sommer 1881)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Nauders">
+				<ed>Nauders (Ort in Tirol<!--; Durchgangsort Haessels im Sommer 1870-->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Nauen">
+				<ed>Nauen (Ort bei Berlin)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Neapel">
+			  <ed>Neapel (Reiseziel Betsy Meyers im Frühling 1876)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Neckar">
+		    <ed>Neckar (Nebenfluss des Rheins)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Neckargemuend">
+		    <ed>Neckargemünd (Ort bei Heidelberg; krankheitsbedingter Aufenthaltsort Haessels im Sommer 1884)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Neuenburg">
+			  <ed>Neuchâtel (dt. Neuenburg; Hauptort des gleichnamigen Kantons; Wohnort von Félix Bovet; viele Male Reiseziel Meyers)</ed><refs><!-- Verweis ins @@@Personenregister -->
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Neuenstadt">
+		    <ed>Neuenstadt &#x2192; <siehe ref="Neuveville">Neuveville</siehe></ed>
+		    <refs xsi:nil="true"/><!-- interner Kommentar: im Briefwechsel kommen Neuveville und Neuenstadt vor -->
+		  </entry>
+		  <entry id="Haldensleben">
+		    <ed>Neuhaldensleben (1938 mit Althaldensleben zu Haldensleben vereinigt; Wohnort von Theodor Sorgenfrey)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Regensberg_Schloss">
+		    <ed>Neu-Regensberg (Schloss bzw. Burg in Regensberg, Kanton Zürich; auch Schloss bzw. Burg Regensberg genannt)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Neuveville">
+		    <ed>Neuveville (dt. Neuenstadt; Ort im Berner Jura, seit 1948 La Neuveville; zeitweiliger Wohnort von Carl Spitteler)</ed><!-- Verweis ins @@@Personenregister --><refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		      <!-- <entry id="La_Neuveville">
+		      <ed>Neuveville (seit 1948 La Neuveville, deutsch: Neuenstadt, Ort im Berner Jura, Wohnort des Schriftstellers Carl Spitteler)</ed>
+		      <refs>
+		        <blck>■?■</blck>
+		      </refs>
+		    </entry> -->
+		  <entry id="New_Bedford">
+		    <ed>New Bedford (Stadt in Massachusetts, USA)</ed><!-- ER: Eintrag nach Korrektur gemacht --><refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="New_York">
+		    <ed>New York (Stadt und Bundesstaat in den USA)</ed><!-- ER: Eintrag nach Korrektur gemacht --><refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Niederlande">
+				<ed>Niederlande</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Niedernau">
+		    <ed>Niedernau (Ort bei Tübingen; ab 1936 Bad Niedernau, seit 1971 Teil der Stadt Rottenburg am Neckar)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Niederoesterreich">
+		    <ed>Niederösterreich</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Niederwald">
+		    <ed>Niederwald (Waldstück im Stadtgebiet von Rüdesheim)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Nietleben">
+				<ed>Nietleben (bis zur Eingemeindung 1950 Vorort von Halle)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Nil">
+				<ed>Nil</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Nizza">
+			  <ed>Nizza (Ausflugsziel des Ehepaars Meyer auf seiner Hochzeitsreise im Winter 1875)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Noerdlingen">
+		  	<ed>Nördlingen (Ort in Bayern; zeitweiliger Aufenthaltsort Haessels im Sommer 1884)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Nordsee">
+				<ed>Nordsee</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Norwegen">
+		    <ed>Norwegen</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Nuernberg">
+				<ed>Nürnberg (Durchgangsort des Ehepaars Meyer im Herbst 1880)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="O">
+			<entry id="Oberengadin">
+				<ed>Oberengadin (Hochtal im Kanton Graubünden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Oberstdorf">
+			  <ed>Oberstdorf (Ort im Allgäu; Ausflugsziel Haessels im Sommer 1872)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Oberstrass">
+			  <ed>Oberstrass; bis zur Eingemeindung 1893 Vorort von Zürich; Wohnort der Geschwister Meyer 1863&#x2011;1868 (&#x00AB;Schabelitzhaus&#x00BB;, Tannenstrasse 17)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+
+			<entry id="Obstalden">
+				<ed>Obstalden (Ort im Kanton Glarus, seit 2011 Teil der Gemeinde Glarus Nord; Ferienort Haessels im Sommer 1880)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Odenwald">
+		    <ed>Odenwald (Mittelgebirge in Südwestdeutschland)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Oesterreich">
+		    <ed>Österreich</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Oetztal">
+		    <ed>Ötztal (Tal in Tirol)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Orinoco">
+		    <ed>Orinoco</ed><!-- ER: Nach Korrektur eingefügt -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Ortler">
+				<ed>Ortler (Berg in Südtirol)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Ostritz">
+		    <ed>Ostritz (Ort im Südosten Sachsens)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Ostsee">
+		    <ed>Ostsee</ed><!-- ER: Eintrag nach Kontrolle gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		</div>
+
+		<div xsi:type="Geografika" h="P">
+		  <entry id="Padua">
+		    <ed>Padua (Stadt in Oberitalien; Reiseziel der Geschwister Meyer im Frühling 1872)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Palaestina">
+				<ed>Palästina (Region an der südöstlichen Küste des Mittelmeeres)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Palermo">
+				<ed>Palermo (Hauptstadt Siziliens)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Pal_Gletscher">
+				<ed>Palü-Gletscher (Gletscher in der Berninagruppe)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Paris">
+				<ed>Paris</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Parma">
+				<ed>Parma (Stadt in Oberitalien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Parpan">
+		    <ed>Parpan (Ort im Kanton Graubünden, seit 2010 Teil der Gemeinde Churwalden; Aufenthaltsort der Familie Meyer im Sommer 1886)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Partenkirchen">
+				<ed>Partenkirchen (Ort in Südbayern, heute Teil von Garmisch-Partenkirchen)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Pastrengo">
+				<ed>Pastrengo (Ort zwischen Verona und Gardasee)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Pavia">
+		    <ed>Pavia (Stadt in der Lombardei)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Pelikan">
+		    <ed>Pelikan (&#x00AB;Haus zum Pelikan&#x00BB; am Talacker in Zürich; Stammhaus von Meyers Schwiegereltern; Verlobungsfest von Meyer mit Louise Ziegler am 15.&#160;Juli 1875 im &#x00AB;Haus zum Pelikan&#x00BB;)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Pennsylvania">
+				<ed>Pennsylvania</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Persien">
+		    <ed>Persien (heute Iran)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Peschiera">
+				<ed>Peschiera (Ort am Gardasee)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Budapest">
+		    <ed>Pest (1873 mit Buda und Obuda zu Budapest vereinigt)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Pfannenstiel">
+			  <ed>Pfannenstiel (Bergrücken bei Meilen am rechten Ufer des Zürichsees; beliebtes Ausflugsziel der Geschwister Meyer)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Pfaeffikon">
+				<ed>Pfäffikon (Ort im Zürcher Oberland)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Pforzheim">
+		    <ed>Pforzheim (Stadt in Baden-Württemberg)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Philadelphia">
+			  <ed>Philadelphia (Stadt im Bundesstaat Pennsylvania)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Festung_Philippsburg">
+		    <ed>Philippsburg (Festung in Philippsburg, einem Ort in Baden-Württemberg)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Pilatus">
+				<ed>Pilatus (Berg bei Luzern)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Pleissenburg">
+		    <ed>Pleißenburg (1897 abgerissene Festung in Leipzig)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Polen">
+			  <ed>Polen (Herkunftsland von Wladislav Plater)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Ponte">
+				<ed>Ponte-Campovasto (Ort im <siehe ref="Oberengadin">Oberengadin</siehe>, seit 1943 La Punt Chamues; zeitweiliger Aufenthaltsort Haessels im Frühling 1869, der Geschwister Meyer im Sommer 1872 und des Ehepaars Meyer im Sommer 1878)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Pontresina">
+				<ed>Pontresina (Ort im <siehe ref="Oberengadin">Oberengadin</siehe>, s. Karte in MBW&#160;4.1, S.&#160;382; beliebter Urlaubsort Meyers, Ferienort der Geschwister Meyer im Sommer 1872 und des Ehepaars Meyer im Sommer 1878 und 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Poschiavino">
+		    <ed>Poschiavino-See &#x2192; <siehe ref="Puschlaversee">Puschlaversee</siehe></ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Potsdam">
+		    <ed>Potsdam</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Poundisford">
+				<ed>Poundisford (Ort in der englischen Grafschaft Somerset)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Prag">
+				<ed>Prag</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Praettigau">
+				<ed>Prättigau (Tal im Kanton Graubünden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Bratislava">
+				<ed>Pressburg (heute Bratislava)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Preussen">
+				<ed>Preu&#223;en (im 19. Jh. Königreich)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Provence">
+				<ed>Provence (Landschaft im Südosten Frankreichs)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Puschlav">
+				<ed>Puschlav (it. Poschiavo; italienischsprachiges südliches Alpental im Kanton Graubünden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Puschlaversee">
+				<ed>Puschlaversee (it. Lago di Poschiavo; See im <siehe ref="Puschlav">Puschlav</siehe>)</ed><!-- Im Briefwechsel Poschiavino-See genannt -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Pustertal">
+				<ed>Pustertal (in Südtirol und Osttirol gelegenes Alpental)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="R">
+			<entry id="Radolfzell">
+			  <ed>Radolfzell (Ort am Bodensee in Baden-Württemberg; zeitweiliger Wohnort von Victor von Scheffel; Aufenthaltsort Haessels im Sommer 1875 und Meyers im Sommer 1877)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Raetien">
+		    <ed>Rätien (Gebiet in den Ostalpen; Schauplatz von Meyers &#x00AB;Richterin&#x00BB;)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Ragaz">
+				<ed>Ragaz (Bade- und Kurort am Rhein im Kanton St. Gallen, s. Karte in MBW&#160;4.1, S.&#160;382; seit 1937 Bad Ragaz; Aufenthaltsort Louise Meyers mit ihren Eltern im Sommer 1879)</ed><!-- interner Kommentar: Umbenennung u.a. gemäss HLS; gemäss andern Quellen Umbenennung 1936 --><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Rapperswil">
+			  <ed>Rapperswil (Ort am rechten Ufer Zürichsees im Kanton St. Gallen, seit 2007 Rapperswil-Jona)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Ravenna">
+				<ed>Ravenna</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Regensburg">
+		    <ed>Regensburg</ed><!-- Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Reichelsheim">
+		    <ed>Reichelsheim (Ort im Odenwald in Hessen; Ausflugsziel Haessels im Sommer 1887)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Reuss">
+		    <ed>Reu&#223; (ehemalige Fürstentümer in Thüringen; Fürstentum &#x00AB;Reu&#223; älterer Linie&#x00BB; und Fürstentum &#x00AB;Reu&#223; jüngerer Linie&#x00BB;)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Rhein">
+				<ed>Rhein</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Rheinland">
+			  <ed>Rheinland (von 1815 bis 1918 Provinz Preußens)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Rheydt"><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <ed>Rheydt (seit 1975 Teil von Mönchengladbach)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Rhoen">
+		    <ed>Rhön (Mittelgebirge im Grenzgebiet von Bayern, Hessen und Thüringen)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Richisau">
+		  	<ed>Richisau (Ort im Klöntal, Kanton Glarus, s. Karte in MBW&#160;4.1, S.&#160;382; Urlaubsort der Familie Meyer im Sommer 1884)</ed>
+		      <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Riesbach">
+		    <ed>Riesbach; bis zur Eingemeindung 1893 Vorort von Zürich; Wohnort der Geschwister Meyer von 1862 bis 1863 (Haus &#x00AB;zum Mühlebach&#x00BB;, Feldeggstrasse 80)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Riesengebirge">
+				<ed>Riesengebirge (Gebirge an der Grenze zwischen Tschechien und Polen; Urlaubsort Haessels im Sommer 1878)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Rietberg_Schloss">
+		    <ed>Rietberg (Schloss in der Gemeinde Domleschg, Kanton Graubünden; hier ermordete Georg Jenatsch Pompejus Planta; Ausflugsziel der Geschwister Meyer im Sommer 1866)</ed><!-- Verweise ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Rigi">
+				<ed>Rigi (Berg in der Zentralschweiz; viele Male Ausflugsziel Meyers mit Schwester, Ehegattin und Tochter)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Rigi_Kloesterli">
+		    <ed>Rigi-Klösterli (zur Gemeinde Arth, Kt. Schwyz, gehörender Weiler auf der Rigi-Ostseite)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Riviera">
+			  <ed>Riviera (französisch-italienisches Teilstück der Mittelmeerküste)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Rochester">
+		    <ed>Rochester (Stadt in New York, USA)</ed><!-- ER: EIntrag anch Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Roeti">
+		    <ed>Röti (höchster Gipfel des <siehe ref="Weissenstein">Weissensteins</siehe>)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Rom">
+				<ed>Rom (mehrmonatiger Aufenthaltsort der Geschwister Meyer im Frühling 1858 und Betsy Meyers im Frühling 1876)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Rudolstadt">
+			  <ed>Rudolstadt (Ort in Thüringen<!-- ER: auskommentiert: längerer Aufenthaltsort Friedrich Schillers 1787/1788 -->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Rueschlikon">
+			  <ed>Rüschlikon (Ort am linken Ufer des Zürichsees; Hochzeitsfeier des Ehepaars Meyer am 5.&#160;Oktober 1875 in einem Gasthaus im Kurort Nidelbad bei Rüschlikon; vermutlich Übernachtung Haessels im Kurhaus im Sommer 1877)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Rumaenien">
+		    <ed>Rumänien</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Russland">
+				<ed>Russland</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="S">
+		  <entry id="Saale">
+		    <ed>Saale (Fluss in Ostdeutschland)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Sabinergebirge">
+				<ed>Sabinergebirge (westliches Randgebirge des Abruzzischen Apennin)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Sachsen">
+				<ed>Sachsen</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Saechsische_Schweiz">
+				<ed>Sächsische Schweiz (deutscher Teil des Elbsandsteingebirges in Sachsen)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Salerno">
+				<ed>Salerno (Hafenstadt südöstlich von Neapel)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Salo">
+				<ed>Salò (Ort am Gardasee)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Salzburg">
+		    <ed>Salzburg (Wohnort von Marie von Wendheim)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="San_Bernardino">
+				<ed>San Bernardino (Ortsteil von Misocco und Gebirgspass im Kanton Graubünden; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Sargans">
+		  	<ed>Sargans (Ort im Kanton St. Gallen; Ferienort Haessels im Sommer 1885)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<!-- interne Bermerkung ER: Dieser Ort kommt in MBW 4.3 vor. Da wir die Ortschaft aber nicht identifizieren konnten (wahrscheinlich Verschreiber), wurde der Ortsregistereintrag in der entsprechenden Datei wieder auskommentiert --><!--<entry id="Sassau">
+				<ed>Saßau </ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>-->
+			<entry id="Savoyen">
+				<ed>Savoyen (historische Region in Frankreich)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Schaffhausen">
+				<ed>Schaffhausen (Hauptort des gleichnamigen Kantons<!--; Durchgangsort Haessels im Sommer 1875-->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Schalders">
+				<ed>Schalders (Bergsiedlung in Vahrn in Südtirol; Urlaubsort Haessels im Sommer 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Schinznach_Bad">
+				<ed>Schinznach &#x2192; <siehe ref="Schinznach">Birrenlauf</siehe></ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Schkeuditz">
+		    <ed>Schkeuditz (Stadt in Sachsen)</ed><!-- ER: Nach Korrektur eingefügt -->
+		    <refs><blck>■?■</blck></refs>
+		  </entry>
+			<entry id="Schlesien">
+			  <ed>Schlesien (im 19. Jh. preu&#223;ische Provinz)</ed>
+				<refs><blck>■?■</blck></refs>
+			</entry>
+			<entry id="Schleswig">
+			  <ed>Schleswig (Stadt und Herzogtum; 1866 Annexion des Herzogtums durch Preu&#223;en, 1867 Vereinigung mit Holstein zur preu&#223;ischen Provinz Schleswig-Holstein)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Schleswig_Holstein"><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <ed>Schleswig-Holstein (1867 bis 1946 preu&#223;ische Provinz)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Schuls">
+			  <ed>Schuls (Ort im <siehe ref="Unterengadin">Unterengadin</siehe>; Aufenthaltsort Haessels im Frühling 1869 und im Sommer 1870)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Schwaben">
+				<ed>Schwaben</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Schwarzwald">
+		    <ed>Schwarzwald (Mittelgebirge im Südwesten Baden-Württembergs)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Schweiz">
+				<ed>Schweiz</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Schwerin">
+		    <ed>Schwerin</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Schyn">
+				<ed>(Alter) Schyn (auch Schynschlucht; eine duch die Albula geprägte Schlucht im Kanton Graubünden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Schynige_Platte">
+			  <ed>Schynige Platte (Aussichtspunkt im Berner Oberland; Ausflugsziel Haessels im Sommer 1877)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Sedrun">
+				<ed>Sedrun (Ort am Vorderrhein im Kanton Graubünden; Aufenthaltsort der Geschwister Meyer im Sommer 1873)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Seehof_Kuesnacht">
+				<ed>&#x00AB;Seehof&#x00BB; &#x2192; <siehe ref="Kuesnacht_Seehof">Küsnacht (Seehof)</siehe></ed>
+				<refs xsi:nil="true"/>
+			</entry>
+			<entry id="Seehof_Meilen">
+				<ed>&#x00AB;Seehof&#x00BB; &#x2192; <siehe ref="Meilen_Seehof">Meilen (Seehof)</siehe></ed>
+				<refs xsi:nil="true"/>
+			</entry>
+			<entry id="Seeland">
+				<ed>Seeland (Insel und Region Dänemarks)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Seewis">
+		    <ed>Seewis (Ort im Prättigau, Kanton Graubünden; Aufenthaltsort Haessels im Sommer 1884)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Serneus">
+		    <ed>Serneus (Ort im Prättigau, Kanton Graubünden, seit 1865 Fraktion der Gemeinde Klosters-Serneus)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Sibirien">
+				<ed>Sibirien</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Siebenbuergen">
+		    <ed>Siebenbürgen (Gebiet im heutigen Rumänien)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Siena">
+			  <ed>Siena (Reiseziel der Geschwister Meyer im Frühling 1858, Durchgangsort Betsy Meyers im Frühling 1876)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Sigmaringen">
+		    <ed>Sigmaringen (Ort mit Schlossanlage in Baden-Württemberg; Ausflugsziel Haessels im Sommer 1885)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Sils_Maria">
+				<ed>Sils-Maria (Ortsteil von Sils im <siehe ref="Oberengadin">Oberengadin</siehe>, s. Karte in MBW&#160;4.1, S. 382)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Silvaplana">
+				<ed>Silvaplana (Ort im <siehe ref="Oberengadin">Oberengadin</siehe>, s. Karte in MBW 4.1, S.&#160;382; Ferienort der Geschwister Meyer im Sommer 1866 und 1867 sowie des Ehepaars Meyer im Sommer 1878 und 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Sinai">
+				<ed>Sinai (Halbinsel; bis 1906 Teil des Osmanischen Reichs, heute Teil
+					Ägyptens)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Sindelfingen">
+		    <ed>Sindelfingen (Ort in Baden-Württemberg)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Singen">
+				<ed>Singen (Ort in Baden-Württemberg)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Sitten">
+				<ed>Sion (dt. Sitten, Hauptort des Kantons Wallis<!--; Durchgangsort Haessels im Sommer 1877-->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Sizilien">
+				<ed>Sizilien</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Soglio">
+				<ed>Soglio (Ort im Bergell, Kanton Graubünden; Ausflugsziel der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Solothurn">
+				<ed>Solothurn (Hauptort des gleichnamigen Kantons)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Sondershausen">
+		    <ed>Sondershausen (Ort in Thüringen)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Sondrio">
+				<ed>Sondrio (Ort im unteren <siehe ref="Veltlin">Veltlin</siehe>; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Sorrent">
+				<ed>Sorrent (Stadt auf der Halbinsel Sorrent beim Golf von Neapel; Aufenthaltsort von Betsy Meyer im Frühling 1876)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Spanien">
+				<ed>Spanien</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Spluegen">
+		    <ed>Splügen (Ort im Kanton Graubünden; Ferienort der Familie Meyer im Sommer 1885)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Spluegenpass">
+		    <ed>Splügenpass (Gebirgsübergang, verbindet Splügen im Kanton Graubünden mit Chiavenna in der Lombardei)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="St_Gallen">
+				<ed>St. Gallen (Hauptort des gleichnamigen Kantons; Ausflugsziel Betsy Meyers im Herbst 1876)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="St_Goar">
+			  <ed>St. Goar (Stadt am linken Ufer des Mittelrheins, <!--seit 1972 Teil der Verbandsgemeinde St. Goar-Oberwesel; -->Geburtsort und zeitweiliger Wohnort von Hermann Friedrichs)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Kloster_Marienthal">
+		    <ed>St. Marienthal (Zisterzienserinnenkloster bei Ostritz in Sachsen)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="St_Moritz">
+				<ed>St. Moritz (Ort im <siehe ref="Oberengadin">Oberengadin</siehe>; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1872, Ferienort des Ehepaars Meyer im Sommer 1878)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Sankt_Petersburg">
+		    <ed>St. Petersburg (zeitweiliger Wohnort von Gustav Haessel)</ed>
+		    <refs>
+		      <blck>■?■</blck><!-- Verweis ins @@@Personenregister) -->
+		    </refs>
+		  </entry>
+		  <entry id="St_Valentin">
+		    <ed>St. Valentin auf der Haide (Fraktion der Gemeinde Graun am Reschenpass in Südtirol; Geburtsort von Heinrich Natter)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Stadelhofen">
+			  <ed>Stadelhofen; Quartier der Stadt Zürich am untersten rechten Zürichseeufer; Wohnort der Familie Meyer-Ulrich von 1845&#x2011;1857 (Haus zum &#x00AB;Langen Stadelhof&#x00BB;, St. Urbangasse 6) sowie der Geschwister Meyer 1857&#x2011;1862 (Haus &#x00AB;St. Urban&#x00BB;, Stadelhoferstr.&#160;23)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Stans">
+				<ed>Stans (Hauptort des Kantons Nidwalden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Schloss_Steinegg">
+		    <ed>Steinegg (Schloss bei Frauenfeld, Kanton Thurgau; Sitz von Alfred Ziegler-Benker; beliebter Sommerferienort des Ehepaars Meyer)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Steiermark">
+				<ed>Steiermark</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Stilfserjoch">
+				<ed>Stilfserjoch (Alpenpass in Oberitalien, verbindet das Veltlin mit Südtirol; Ausflugsziel der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Strassburg">
+				<ed>Straßburg</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Stuttgart">
+				<ed>Stuttgart (Wohnort von Gustav Pfizer; Besuch Betsy Meyers im Frühling 1863)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Sumatra">
+		    <ed>Sumatra (zu Indonesien gehörende Insel; im 19. Jahrhundert niederländische Kolonie unter dem Namen Niederländisch-Indien)</ed><!-- ER: Eintrag nach Korrektur gemacht -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <!-- <entry id="Surettaseen">
+		    <ed>Surettaseen (zwei oberhalb von Splügen im Kanton Graubünden gelegene Seen, der &#x00AB;obere&#x00BB; und der &#x00AB;untere&#x00BB; Surettasee)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry> -->
+		</div>
+
+		<div xsi:type="Geografika" h="T">
+			<entry id="Taormina">
+				<ed>Taormina (Stadt an der Ostküste Siziliens)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Tarasp">
+			  <ed>Tarasp (Ort mit Schlossanlage im <siehe ref="Unterengadin">Unterengadin</siehe>, seit 2015 Teil der Gemeinde Schuls; Ausflugsziel der Geschwister Meyer im Sommer 1866 sowie Aufenthaltsort Haessels im Frühling 1869 und im Sommer 1870)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Telegraphenberg">
+			  <ed>&#x00AB;Telegrafenberg&#x00BB; (offiziell Monte Maggiore, Berg bei Pastrengo)</ed>
+			  <refs xsi:nil="true"/></entry>
+		  <entry id="Decin">
+		    <ed>Tetschen (heute Děčín in der Tschechischen Republik)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Thalwil">
+				<ed>Thalwil (Ort am linken Ufer des Zürichsees)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Theben">
+			  <ed>Theben (altägyptische Stadt in Oberägypten)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Thonberg">
+			  <ed>Thonberg (bis zur Eingemeindung 1890 Vorort von Leipzig)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Thueringen">
+				<ed>Thüringen</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Thurgau">
+				<ed>Thurgau (Kanton in der Ostschweiz)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Thusis">
+				<ed>Thusis (Ort im Domleschg, Kanton Graubünden, s. Karte in MBW&#160;4.1, S.&#160;382; Ausflugsziel der Geschwister Meyer im Herbst 1866; 1867 von Meyer kurzzeitig als Wohnort ins Auge gefasst)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Tirano">
+				<ed>Tirano (Ort im unteren <siehe ref="Veltlin">Veltlin</siehe>; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Tirol">
+				<ed>Tirol</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Tobolsk">
+				<ed>Tobolsk (Stadt in Sibirien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Toggenburg">
+			  <ed>Toggenburg (1209&#x2011;1798 Grafschaft im heutigen Kanton St. Gallen; Schauplatz von Meyers unvollendeter Novelle &#x00AB;Der Dynast&#x00BB; bzw. &#x00AB;Der letzte Toggenburger&#x00BB;)</ed>
+				<refs>
+					<blck>■?■</blck><!-- Verweis ins @@@Personenregister -->
+				</refs>
+			</entry>
+			<entry id="Tomsk">
+				<ed>Tomsk (Stadt in Sibirien)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Trier">
+		    <ed>Trier</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Triest">
+			  <ed>Triest</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Troja">
+				<ed>Troja (sagenumwobene Stadt aus Homers &#x00AB;Ilias&#x00BB;, evtl. im Nordwesten der heutigen Türkei)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Tschamut">
+			  <ed>Tschamut &#x2192; <siehe ref="Tschamutt">Chiamut</siehe></ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Tuebingen">
+			  <ed>Tübingen</ed><!-- interner Kommentar: Im Frühling 1863 besuchte Betsy Meyer Familie Geib in Tübingen -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <!-- <entry id="Turrasee">
+		    <ed>Turrasee (oberhalb von Splügen im Kanton Graubünden gelegener See)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry> -->
+		</div>
+
+		<div xsi:type="Geografika" h="U">
+			<entry id="Ueberlingen">
+			  <ed>Überlingen (Ort am Bodensee in Baden-Württemberg; Reiseziel Haessels im Sommer 1880)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Uetliberg">
+		    <ed>Uetliberg (auch Üetliberg; nördlichster Gipfel der Albiskette; &#x00AB;Hausberg&#x00BB; der Stadt Zürich)<?bem ER: Bitte nicht zu Ütliberg korrigieren ?></ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Ufenau">
+			  <ed>Ufenau (Insel im oberen Zürichsee; Sterbeort Ulrich von Huttens)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Ungarn">
+		    <ed>Ungarn</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Unterengadin">
+				<ed>Unterengadin (Hochtal im Kanton Graubünden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Unterwalden">
+			  <ed>Unterwalden (Ort der alten Eidgenossenschaft mit den heute eigenständigen Kantonen Ob- und Nidwalden)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Uri">
+				<ed>Uri (Kanton in der Innerschweiz)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="V">
+			<entry id="Vahrn">
+				<ed>Vahrn (Ort nordwestlich von Brixen in Südtirol; Urlaubsort Haessels im Sommer 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  
+		  <entry id="Varna">
+		    <ed>Varna (auch Warna; Ort in Bulgarien)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Veltlin">
+				<ed>Veltlin (Tal und Landschaft in Oberitalien, s. Karte in MBW&#160;4.1, S.&#160;382; vom 16. bis 18. Jahrhundert Hoheitsgebiet der Drei Bünde, i.&#160;e. Graubündens; einer der Hauptschauplätze von Meyers &#x00AB;Jürg Jenatsch&#x00BB;; die Geschwister Meyer bereisten das Veltlin im Sommer 1866)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Venedig">
+			  <ed>Venedig (Reiseziel der Geschwister Meyer im Winter 1871/1872; Entstehungsort des &#x00AB;Engelberg&#x00BB;)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Venezuela"><!-- ER: Eintrag nach Kontrolle gemacht -->
+		    <ed>Venezuela</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  
+			<entry id="Verona">
+				<ed>Verona (Reiseziel der Geschwister Meyer im Winter 1871 und Haessels im Sommer 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Vesuv">
+				<ed>Vesuv (Vulkan bei Neapel)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Via_Mala">
+		    <ed>Via Mala (Schlucht des Hinterrheins zwischen Thusis und Zillis, Kanton Graubünden)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Vicosoprano">
+				<ed>Vicosoprano (Ort im Bergell, Kanton Graubünden; Ausflugsziel der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Vierwaldstaettersee">
+		    <ed>Vierwaldstättersee (See in der Innerschweiz)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Vorauen">
+		    <ed>Vorauen (Ort im Klöntal, Kanton Glarus)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		</div>
+
+		<div xsi:type="Geografika" h="W">
+			<entry id="Waadt">
+				<ed>Waadt (Kanton in der Westschweiz; auch als Waadtland bezeichnet)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Waldshut">
+		    <ed>Waldshut (Ort im heutigen Baden-Württemberg, seit 1975 Waldshut-Tiengen)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Wallis">
+				<ed>Wallis (Kanton im Südwesten der Schweiz)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Walzenhausen">
+				<ed>Walzenhausen (Ort im Kanton Appenzell; Aufenthaltsort der Familie Meyer im Sommer 1886)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		 <entry id="Wangensbach_Kuesnacht">
+				<ed>&#x00AB;Wangensbach&#x00BB; &#x2192; <siehe ref="Kuesnacht_Wangensbach">Küsnacht (Wangensbach)</siehe></ed>
+				<refs xsi:nil="true"/>
+			</entry>
+			<entry id="Weesen">
+				<ed>Weesen (Ort im Kanton St. Gallen; Ausflugsziel Haessels im Sommer 1880)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Weggis">
+		    <ed>Weggis (Ort im Kanton Luzern; Aufenthaltsort von Louise und Camilla Meyer im Frühling 1884)</ed><!-- Verweis ins @@@Personenregister -->
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Weimar">
+				<ed>Weimar (Stadt in Thüringen)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+	<entry id="Weissenfels">
+	  <ed>Wei&#223;enfels (Ort in Sachsen-Anhalt; Wohnort von Louise von Fran&#0231;ois)</ed><!-- Verweis ins @@@Personenregister -->
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Weissenstein">
+		    <ed>Weissenstein (Bergrücken des Schweizer Juras; &#x00AB;Hausberg&#x00BB; der Stadt Solothurn)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Wengernalp">
+				<ed>Wengernalp (Alp im Berner Oberland<!--; Durchgangsort Haessels im Sommer 1865-->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Wernigerode">
+			  <ed>Wernigerode (Ort in Sachsen-Anhalt)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Westfalen">
+			  <ed>Westfalen (nordöstlicher Landesteil Nordrhein-Westfalens, im 19. Jh. preu&#223;ische Provinz)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Wien">
+				<ed>Wien</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Wiesbaden">
+				<ed>Wiesbaden (Landeshauptstadt von Hessen; Aufenthaltsort Haessels im Herbst 1879)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Wilhelmsdorf">
+			  <ed>Wilhelmsdorf (Ort bei Ravensburg in Baden-Württemberg)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Wilkes_Barre">
+			  <ed>Wilkes-Barre (Stadt in Pennsylvania, USA)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Winnental">
+			  <ed>Winnenthal (Ort bei Stuttgart mit Heilanstalt &#x00AB;Schloss Winnenthal&#x00BB;)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Winterthur">
+				<ed>Winterthur (Stadt im Kanton Zürich)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Wittenberg">
+		    <ed>Wittenberg (Stadt in Sachsen-Anhalt, seit 1938 Lutherstadt Wittenberg)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Wuerttemberg">
+			  <ed>Württemberg (im 19. Jahrhundert Königreich)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="Y">
+			<entry id="York">
+				<ed>York (Stadt im Norden Englands, Sitz des Erzbischofs von York)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		</div>
+
+		<div xsi:type="Geografika" h="Z">
+			<entry id="Zermatt">
+				<ed>Zermatt (Ort im Kanton Wallis<!--; Durchgangsort Haessels im Sommer 1877-->)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Zernez">
+				<ed>Zernez (Ort im <siehe ref="Unterengadin">Unterengadin</siehe>, s. Karte in MBW&#160;4.1, S.&#160;382; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866 und 1872)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Zofingen">
+				<ed>Zofingen (Ort im Kanton Aargau)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Zuerich">
+		    <ed>Zürich</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+		  <entry id="Zuerichsee">
+		    <ed>Zürichsee (See in den Kantonen Zürich, St. Gallen und Schwyz)</ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+			<entry id="Zuoz">
+				<ed>Zuoz (Ort im <siehe ref="Oberengadin">Oberengadin</siehe>, s. Karte in MBW&#160;4.1, S.&#160;382; früher auch Zutz oder Zuz genannt; zeitweiliger Aufenthaltsort der Geschwister Meyer im Sommer 1866)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+			<entry id="Zug">
+				<ed>Zug (Hauptort des gleichnamigen Kantons)</ed>
+				<refs>
+					<blck>■?■</blck>
+				</refs>
+			</entry>
+		  <entry id="Zutz">
+		    <ed>Zutz &#x2192; <siehe ref="Zuoz">Zuoz</siehe></ed>
+		    <refs>
+		      <blck>■?■</blck>
+		    </refs>
+		  </entry>
+
+		</div>
+	</body>
+
+</register>
