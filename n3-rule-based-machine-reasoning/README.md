@@ -4,7 +4,7 @@ Positioning information of machine reasoning in the NIE-project is in the [N3-ru
 Machine reasoning is applied for different purposes.
 
 ### Implementation of the RDF model theory:
-Use case for *sub-class of, sub-property of*, transitivity of *is part of* and others.
+Use case for *subclass of, subproperty of*, transitivity of *is part of* and others.
 
 ### Consistency check for user defined restrictions:
 Use case for a restriction on the number (cardinality) of objects a certain subject instance can have for a certain relation (property).
