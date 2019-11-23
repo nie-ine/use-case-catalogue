@@ -1,5 +1,5 @@
-Positioning information of machine reasoning in the NIE-project is in the [N3-rule-based machine reasoning](https://github.com/nie-ine/N3-rule-based_machine-reasoning) repository.
-
+## N3-rule-based machine reasoning
+Further information is in the [repository](https://github.com/nie-ine/N3-rule-based_machine-reasoning).
 
 Machine reasoning is applied for different purposes.
 
@@ -14,8 +14,6 @@ Use case for missing start or end of an event.
 
 ### Miscellaneous functionalities and calculations:
 Use case for inferring an ordinal from an entity identifier.
-
-
-The reasoner can be installed locally to try out the inferences yourself.
-
-Note: the command for the reasoner is written for Unix OS, but can be easily converted for Windows OS.
+&nbsp;  
+&nbsp;  
+The reasoner can be installed locally to try out the inferences yourself (see [repository](https://github.com/nie-ine/N3-rule-based_machine-reasoning)).
