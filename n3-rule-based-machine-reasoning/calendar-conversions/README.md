@@ -24,7 +24,7 @@ Using SWT to unify semantics cross databases and models also implies unification
 The onset of implementation covers Gregorian, Julian and proleptic Julian calendars.
 Other will follow.
 
-The semantic entities for time and calendrical expressions are in the [time-](https://github.com/nie-ine/Ontologies/blob/master/Nie-ontologies/Generic-ontologies/time-ontology.ttl) and [calendar-ontologies](https://github.com/nie-ine/Ontologies/blob/master/Nie-ontologies/Generic-ontologies/calendar-ontology.ttl) respectively.
+The semantic entities for time and calendrical expressions are in the [time-](https://github.com/nie-ine/Ontologies/blob/master/Nie-ontologies/Generic-ontologies/time-ontology.ttl) and [calendar-ontology](https://github.com/nie-ine/Ontologies/blob/master/Nie-ontologies/Generic-ontologies/calendar-ontology.ttl) respectively.
 
 The ontologies not only provide elements to RDF-ize data, but also to declare rules for temporal reasoning and calendar conversion.
 
