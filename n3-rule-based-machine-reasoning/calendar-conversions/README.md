@@ -16,8 +16,8 @@ Before the existande of a certain calendar other calendars already existed, but 
 
 Besides those 3 mentioned calendars, sprouting from a certain part of the world, other ones exist, e.g. the Islamic calendar, started on 16 July 622, or the Hebrew, the Persian, and other calendars.
 
-To calculate with time expressions coming from different calendars can get quite cumbersome quickly for a human being.
-For a computer, this is standard, given all the funtionality is implemented.
+To calculate with time expressions coming from different calendars can get quickly quite cumbersome for a human being.
+For a computer, this is standard, given all the functionality is implemented.
 
 Using SWT to unify semantics cross databases and models also implies unification of time expressions in the form of the Julian Day Number, also being an integer easier to calculate with. Other time expressions in different calendars can be converted to Julian Day Number, in a way that a machine can calculate with them simultaneausly by addition or subtraction.
 
