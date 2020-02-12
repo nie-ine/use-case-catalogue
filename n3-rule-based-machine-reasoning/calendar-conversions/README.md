@@ -7,7 +7,7 @@ This implies comparibility of these expressions from different calendars.
 
 Although a calendar starts at a certain moment, but can also end, it does not mean that it is used by all people.
 
-Through history a whole series of calendars are introduces at different times in different places.
+Through history a whole series of calendars are introduced at different times in different places.
 
 An established calendar can be replaced by another one. E.g. the Julian calendar, de facto started in the year 4 AD and used until October 4 1582, was then replaced by the Gregorian calendar, skipping a few days and recalculating leap years, and used by the majority of people.
 But some groups decided to further use the Julian calendar.
