@@ -1,5 +1,5 @@
 ## N3-rule-based machine reasoning
-Further information is in the [repository](https://github.com/nie-ine/N3-rule-based_machine-reasoning).
+Further information is in the dedicated [repository](https://github.com/nie-ine/N3-rule-based_machine-reasoning).
 
 Machine reasoning is applied for different purposes.
 
@@ -10,6 +10,7 @@ Use case for *subclass of, subproperty of*, transitivity of *is part of* and oth
 Use case for a restriction on the number (cardinality) of objects a certain subject instance can have for a certain relation (property).
 
 ### Temporal reasoning:
+Use case for calendar conversions.
 Use case for missing start or end of an event.
 
 ### Miscellaneous functionalities and calculations:

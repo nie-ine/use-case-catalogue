@@ -9,7 +9,7 @@ Although a calendar starts at a certain moment, but can also end, it does not me
 
 Through history a whole series of calendars are introduced at different times in different places.
 
-An established calendar can be replaced by another one. E.g. the Julian calendar, de facto started in the year 4 AD and used until October 4 1582, was then replaced by the Gregorian calendar, skipping a few days and recalculating leap years, and used by the majority of people.
+An established calendar can be replaced by another one. E.g. the Julian calendar, de facto started in the year 4 AD in the Roman Empire and used until October 4 1582, was then replaced by the Gregorian calendar, skipping a few days and recalculating leap years, and used by the majority of people.
 But some groups decided to further use the Julian calendar.
 
 Before the existande of a certain calendar other calendars already existed, but one can use e.g. the Julian calendar to go back in time before the year 4 AD, called the 'proleptic' Julian calendar.
@@ -19,14 +19,14 @@ Besides those 3 mentioned calendars, sprouting from a certain part of the world,
 To calculate with time expressions coming from different calendars can get quickly quite cumbersome for a human being.
 For a computer, this is standard, given all the functionality is implemented.
 
-Using SWT to unify semantics cross databases and models also implies unification of time expressions in the form of the Julian Day Number, also being an integer easier to calculate with. Other time expressions in different calendars can be converted to Julian Day Number, in a way that a machine can calculate with them simultaneausly by addition or subtraction.
+Using SWT to unify semantics cross databases and models also implies unification of time expressions in the form of the Julian Day Number, being an integer also easier to calculate with. Other time expressions in different calendars can be converted to Julian Day Number, in a way that a machine can calculate with them simultaneausly by addition or subtraction.
 
 The onset of implementation covers Gregorian, Julian and proleptic Julian calendars.
 Other will follow.
 
 The semantic entities for time and calendrical expressions are in the [time-](https://github.com/nie-ine/Ontologies/blob/master/Nie-ontologies/Generic-ontologies/time-ontology.ttl) and [calendar-ontology](https://github.com/nie-ine/Ontologies/blob/master/Nie-ontologies/Generic-ontologies/calendar-ontology.ttl) respectively.
 
-The ontologies not only provide elements to RDF-ize data, but also to declare rules for temporal reasoning and calendar conversion.
+The ontologies not only provide elements to RDF-ize data, but also to declare rules for calendar conversion and other temporal reasoning.
 
 In this use case there is a mock-up data-graph from projectx as a 1-1 translation from e.g. XML to RDF.
 It covers the possible cases for the 3 implemented calendars. 
